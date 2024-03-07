@@ -50,13 +50,19 @@ But also you get tables with all found docx, pdf and xlsx files, which can be ex
 Output saves in 2 files, with name, provided in `-o` parameter and `txt` and `json` extensions. `output` filename is default. 
 
 -----
-TXT example:
-<h3 align="center"><img width="700" style="border-radius:5px;" alt="screenshot" src="./screens/third_example.png"></h3>
+TXT and JSON:
+<div style="display: flex; justify-content: space-between;">
+    <div>
+        <img width="276" style="border-radius: 5px;" alt="screenshot" src="./screens/third_example.png">
+    </div>
+    <div>
+        <img width="300" style="border-radius: 5px;" alt="screenshot" src="./screens/forth_example.png">
+    </div>
+</div>
 
------
-JSON example:
-<h3 align="center"><img width="700" style="border-radius:5px;" alt="screenshot" src="./screens/forth_example.png"></h3>
+
+
 
 
 ## Project Leader
-- [zizzs](https://github.com/zizzs3228)
+### [zizzs](https://github.com/zizzs3228)
