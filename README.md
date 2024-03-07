@@ -5,9 +5,9 @@ Welcome to the official repository of WEBsPYder, a web directory scanner that ca
 WEBsPYder works in 3 modes:
 1. robots.txt+sitemap.xml parser -> crawler
    + parser get URLs from sitemap.xml and robots.txt and gives them to parser, which recursively GETs every page and tries to find any links in them and so on and so on...
-2. FUZZER
+2. [FUZZER](https://en.wikipedia.org/wiki/Fuzzing)
    + simple FUZZER, you know how it works. Just one iteration. Usefull on CTFs and small web applications.
-3. robots.txt+sitemap.xml parser -> FUZZER -> crawler
+3. robots.txt+sitemap.xml parser -> [FUZZER](https://en.wikipedia.org/wiki/Fuzzing) -> crawler
    + the default mode and the best one. Combination of first and second modes, in this mode WEBsPYder parses robots.txt,sitemap.xml and FUZZes on 8000 different URLs, then gives it to crawler to increase the scanning area.
 ## How to install
 Installation is very simple, just use this command:
