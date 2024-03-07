@@ -51,14 +51,16 @@ Output saves in 2 files, with name, provided in `-o` parameter and `txt` and `js
 
 -----
 TXT and JSON:
-<div style="display: flex; justify-content: space-between;">
-    <div>
-        <img width="276" style="border-radius: 5px;" alt="screenshot" src="./screens/third_example.png">
-    </div>
-    <div>
-        <img width="300" style="border-radius: 5px;" alt="screenshot" src="./screens/forth_example.png">
-    </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img width="460" style="border-radius: 5px;" alt="screenshot" src="./screens/third_example.png">
+    </td>
+    <td align="center">
+      <img width="500" style="border-radius: 5px;" alt="screenshot" src="./screens/forth_example.png">
+    </td>
+  </tr>
+</table>
 
 
 
