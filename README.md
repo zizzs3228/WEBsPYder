@@ -53,7 +53,7 @@ TXT and JSON examples:
 <table>
   <tr>
     <td align="center">
-      <img width="460" style="border-radius: 5px;" alt="screenshot" src="./screens/third_example.png">
+      <img width="458" style="border-radius: 5px;" alt="screenshot" src="./screens/third_example.png">
     </td>
     <td align="center">
       <img width="500" style="border-radius: 5px;" alt="screenshot" src="./screens/forth_example.png">
