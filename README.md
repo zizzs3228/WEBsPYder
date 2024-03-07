@@ -14,6 +14,7 @@ Installation is very simple, just use this command:
 ``` bash
 git clone --sparse https://github.com/zizzs3228/WEBsPYder.git && cd WEBsPYder && pip install -r requirements.txt
 ```
+Or you can download archive with latest release from [here](https://github.com/zizzs3228/WEBsPYder/releases/tag/WEBsPYder) 
 ## How to use
 This code:
 ```bash
