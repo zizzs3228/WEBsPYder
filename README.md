@@ -8,7 +8,7 @@ WEBsPYder works in 3 modes:
 2. [FUZZER](https://en.wikipedia.org/wiki/Fuzzing)
    + simple FUZZER, you know how it works. Just one iteration. Usefull on CTFs and small web applications.
 3. robots.txt+sitemap.xml parser -> [FUZZER](https://en.wikipedia.org/wiki/Fuzzing) -> crawler
-   + the default mode and the best one. Combination of first and second modes, in this mode WEBsPYder parses robots.txt,sitemap.xml and FUZZes on 8000 different URLs, then gives it to crawler to increase the scanning area.
+   + the default mode and the best one. Combination of first and second modes, in this mode WEBsPYder parses robots.txt, sitemap.xml and FUZZes on 8000 different URLs, then gives it to crawler to increase the scanning area.
 ## How to install
 Installation is very simple, just use this command:
 ``` bash
@@ -42,7 +42,7 @@ Example:
 python3 webspyder.py -u http://192.168.17.128:8080/admin/
 ```
 Gives you this output:
-<h3 align="center"><img width="700" style="border-radius:5px;" alt="screenshot" src="./screens/first_example.png"></h3>
+<h3 align="center"><img width="800" style="border-radius:5px;" alt="screenshot" src="./screens/first_example.png"></h3>
 You get pages and 200 HTTP-answers, which you can explore for potential vulnerabilities, and 403, which you can try to bypass.
 <h3 align="center"><img width="700" style="border-radius:5px;" alt="screenshot" src="./screens/second_example.png"></h3>
 But also you get tables with all found docx, pdf and xlsx files, which can be explored for social engineering purposes.
