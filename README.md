@@ -12,7 +12,7 @@ WEBsPYder works in 3 modes:
 ## How to install
 Installation is very simple, just use this command:
 ``` bash
-git clone https://github.com/zizzs3228/WEBsPYder.git && cd WEBsPYder && pip install -r requirements.txt
+git clone https://github.com/zizzs3228/WEBsPYder.git --ignore screens/ && cd WEBsPYder && pip install -r requirements.txt
 ```
 ## How to use
 This code:
@@ -34,7 +34,7 @@ options:
                         Level of scan. 1 - only sitemap and robots.txt + crawler, 2 - FUZZING, 3 - FUZZING + crawler. Example: -l 3
 ```
 
-_As you can see, it takes 4 arguments, but **only one is required** - `-u/--URL <URL>`_ 
+#### _As you can see, it takes 4 arguments, but **only one is required** - `-u/--URL <URL>`_ 
 
 Example:
 ```bash
@@ -53,7 +53,7 @@ TXT and JSON examples:
 <table>
   <tr>
     <td align="center">
-      <img width="458" style="border-radius: 5px;" alt="screenshot" src="./screens/third_example.png">
+      <img width="459" style="border-radius: 5px;" alt="screenshot" src="./screens/third_example.png">
     </td>
     <td align="center">
       <img width="500" style="border-radius: 5px;" alt="screenshot" src="./screens/forth_example.png">
