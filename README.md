@@ -49,8 +49,7 @@ But also you get tables with all found docx, pdf and xlsx files, which can be ex
 -----
 Output saves in 2 files, with name, provided in `-o` parameter and `txt` and `json` extensions. `output` filename is default. 
 
------
-TXT and JSON:
+TXT and JSON examples:
 <table>
   <tr>
     <td align="center">
