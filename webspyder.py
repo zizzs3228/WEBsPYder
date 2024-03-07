@@ -850,7 +850,7 @@ if __name__ == '__main__':
                 f.write(other+'\n')
             f.write('\n')
 
-    print(Fore.BLUE+f'[+] Output saved to {output+'.txt'}'+Fore.RESET)
+    print(Fore.BLUE+f'[+] Output saved to {output+".txt"}'+Fore.RESET)
 
     data = {}
 
@@ -875,7 +875,7 @@ if __name__ == '__main__':
     with open(output+'.json', 'w') as f:
         json.dump(data, f, indent=4)
 
-    print(Fore.BLUE + f'[+] Json saved to {output+'.json'}' + Fore.RESET)
+    print(Fore.BLUE + f'[+] Json saved to {output+".json"}' + Fore.RESET)
 
     # print(internallinks,'\n\n',requests200,'\n\n',requests403,'\n\n',URLtotest,'\n\n',sitemaps)
 
