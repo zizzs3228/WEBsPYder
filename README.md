@@ -12,7 +12,7 @@ WEBsPYder works in 3 modes:
 ## How to install
 Installation is very simple, just use this command:
 ``` bash
-git clone https://github.com/zizzs3228/WEBsPYder.git --ignore screens/ && cd WEBsPYder && pip install -r requirements.txt
+git clone --sparse https://github.com/zizzs3228/WEBsPYder.git && cd WEBsPYder && pip install -r requirements.txt
 ```
 ## How to use
 This code:
