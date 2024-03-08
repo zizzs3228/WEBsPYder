@@ -8,7 +8,7 @@ WEBsPYder works in 3 modes:
 2. [FUZZER](https://en.wikipedia.org/wiki/Fuzzing)
    + simple FUZZER, you know how it works. Just one iteration. Usefull on CTFs and small web applications.
 3. robots.txt+sitemap.xml parser -> [FUZZER](https://en.wikipedia.org/wiki/Fuzzing) -> crawler
-   + the default mode and the best one. Combination of first and second modes, in this mode WEBsPYder parses robots.txt, sitemap.xml and FUZZes on 8000 different URLs, then gives it to crawler to increase the scanning area.
+   + the default mode and the best one. Combination of first and second modes, in this mode WEBsPYder parses robots.txt, sitemap.xml and FUZZes on 13000 different URLs, then gives it to crawler to increase the scanning area.
 ## How to install
 Installation is very simple, just use this command:
 ``` bash
