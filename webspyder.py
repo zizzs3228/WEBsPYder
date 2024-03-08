@@ -288,7 +288,8 @@ def crawler(level:int)->None:
             with open('URLenum.txt','r') as f:
                 URLs = [x.strip() for x in f.readlines()]
             phps = [x+'.php' for x in URLs if '.' not in x and x[-1]!='/' and x[-4:]!='.php']
-            URLs = URLs+phps
+            slashes = [x+'/' for x in tempURLS if '.' not in x and x[-1]!='/' and x[-4:]!='.php']
+            URLs = URLs+phps+slashes
             URLs = [URL+'/'+x for x in URLs if x[0]!='/']
 
             def headcheck(URLs:list)->None:
@@ -723,7 +724,8 @@ if __name__ == '__main__':
         with open('URLenum.txt','r') as f:
             tempURLS = [x.strip() for x in f.readlines()]
             tempPHPS = [x+'.php' for x in tempURLS if '.' not in x and x[-1]!='/' and x[-4:]!='.php']
-            tempURLS = tempURLS+tempPHPS
+            tempslashes = [x+'/' for x in tempURLS if '.' not in x and x[-1]!='/' and x[-4:]!='.php']
+            tempURLS = tempURLS+tempPHPS+tempslashes
             tempURLS = [URL+'/'+x for x in tempURLS if x[0]!='/']
             max_iterations = len(tempURLS)
         progress_bar = tqdm(total=max_iterations, desc='Scanning', unit='page(s)')
