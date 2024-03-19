@@ -91,7 +91,7 @@ def crawler(level:int)->None:
             target = startURL+'/robots.txt'
             rqst = None
             try:
-                rqst = requests.get(target, headers=useragent, timeout=5)
+                rqst = requests.get(target, headers=useragent, timeout=5,verify=False)
             except requests.ConnectionError as e:
                 print(str(e))
                 with threading.Lock():
@@ -209,7 +209,7 @@ def crawler(level:int)->None:
             threads = []
             rqst = None
             try:
-                rqst = requests.get(target, headers=useragent, timeout=5)
+                rqst = requests.get(target, headers=useragent, timeout=5,verify=False)
             except requests.ConnectionError as e:
                 print(str(e))
                 with threading.Lock():
@@ -303,7 +303,7 @@ def crawler(level:int)->None:
                         bruteforceprogress+=1
                     rqst = None
                     try:
-                        rqst = requests.get(U, headers=useragent,timeout=10,allow_redirects=False)
+                        rqst = requests.get(U, headers=useragent,timeout=10,allow_redirects=False,verify=False)
                         rqst.close()
                     except requests.ConnectionError as e:
                         print(str(e))
@@ -386,7 +386,7 @@ def crawler(level:int)->None:
                 time.sleep(10)
             rqst = None
             try:
-                rqst = requests.get(target, headers=useragent, timeout=5)
+                rqst = requests.get(target, headers=useragent, timeout=5,verify=False)
             except requests.ConnectionError as e:
                 print(str(e))
                 with threading.Lock():
@@ -484,7 +484,7 @@ def crawler(level:int)->None:
                 time.sleep(10)
             rqst = None
             try:
-                rqst = requests.get(target, headers=useragent, timeout=5)
+                rqst = requests.get(target, headers=useragent, timeout=5,verify=False)
             except requests.ConnectionError as e:
                 print(str(e))
                 with threading.Lock():
@@ -586,7 +586,7 @@ def crawler(level:int)->None:
                 time.sleep(10)
             rqst = None
             try:
-                rqst = requests.get(target, headers=useragent, timeout=5)
+                rqst = requests.get(target, headers=useragent, timeout=5,verify=False)
             except requests.ConnectionError as e:
                 print(str(e))
                 with threading.Lock():
